@@ -1,14 +1,20 @@
-var time = '10:15pm';
-var price = 150;
-var isWhiteColor = false;
+console.log("sigma");
+var time = '10:16pm';
+var bookPrice = 150;
+// var isWhiteColor = flase;
 
 // array
-var partners = ['sajid', 'mojid', 'nojid'];
+var partners = ['sajid', 'mojid'];
 var elementCount = partners.length;
-var nojidIndex = partners.indexOf('nojid');
-
-partners.push('kajit');
+console.log(elementCount)
+var sajidIndex = partners.indexOf('sajid');
+console.log(sajidIndex)
+partners.push('navid');
+console.log(partners)
 partners.pop();
+console.log(partners)
+partners.shift()
+console.log(partners)
+partners.unshift('kajid')
+console.log(partners)
 
-partners.unshift('disa');
-partners.shift();
